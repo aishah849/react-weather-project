@@ -18,7 +18,7 @@ export default function App() {
           </a>
           {""} and hosted by {""}
           <a
-            href="https://storied-bonbon-baacab.netlify.app"
+            href="https://luminous-sundae-7301a5.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
