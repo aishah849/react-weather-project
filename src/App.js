@@ -6,11 +6,11 @@ export default function App() {
   return (
     <div className="container">
       <div className="weather-app-wrapper">
-        <Weather />
+        <Weather defaultCity="Singapore" />
         <footer>
           Open sourced on {""}
           <a
-            href="https://github.com/aishah849/react-weather-app"
+            href="https://github.com/aishah849/react-weather-project"
             target="_blank"
             rel="noreferrer"
           >
