@@ -76,7 +76,7 @@ export default function Weather(props) {
           </div>
           <div className="col-5">
             <div className="overview">
-              <h1>Singapore</h1>
+              <h1>{weatherData.city}</h1>
               <ul className="current-time">
                 <li>{weatherData.date}</li>
                 <li>Sunday 3:00 am</li>
