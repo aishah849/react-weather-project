@@ -1,19 +1,30 @@
-import "./App.css";
+import React from "react";
+import "./Weather.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <h1>Weather App</h1>
+    <div className="container">
+      <div className="weather-app-wrapper">
+        <Weather />
         <footer>
-          This project was coded by Aishah Al-Rashid and it is {""}
+          Open sourced on {""}
           <a
-            href="https://github.com/aishah849/react-weather-project"
+            href="https://github.com/aishah849/react-weather-app"
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced on Github
+            Github
           </a>
+          {""} and hosted by {""}
+          <a
+            href="https://storied-bonbon-baacab.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+          . Coding by Aishah Al-Rashid.
         </footer>
       </div>
     </div>
