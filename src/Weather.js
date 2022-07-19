@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Weather.css";
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import FormattedDate from "./FormattedDate";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -10,7 +10,7 @@ export default function Weather(props) {
     setWeatherData({
       ready: true,
       city: response.data.name,
-      date: "17 July 2022",
+      date: new Date(response.data.dt * 1000),
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
       iconUrl: "http://openweathermap.org/img/wn/04n@2x.png",
@@ -77,10 +77,7 @@ export default function Weather(props) {
           <div className="col-5">
             <div className="overview">
               <h1>{weatherData.city}</h1>
-              <ul className="current-time">
-                <li>{weatherData.date}</li>
-                <li>Sunday 3:00 am</li>
-              </ul>
+              <FormattedDate date={weatherData.date} />
             </div>
           </div>
         </div>
