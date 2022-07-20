@@ -51,15 +51,15 @@ ul {
 .weather-temperature .active:hover {
   color: black;
 }
-.weather-temperature img {
+.weather-temperature canvas {
   position: relative;
   display: inline-block;
-  margin: -5px -5px;
-  height: 80px;
-  width: 80px;
+  margin-top: 10px;
+  margin-right: -5px;
 }
 .weather-temperature .current-temperature {
   color: black;
+  margin-left: 20px;
   vertical-align: top;
   font-size: 48px;
   letter-spacing: -1px;
