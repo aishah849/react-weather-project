@@ -54,9 +54,9 @@ ul {
 .weather-temperature img {
   position: relative;
   display: inline-block;
-  height: 60px;
-  vertical-align: top;
-  width: 60px;
+  margin: -5px -5px;
+  height: 80px;
+  width: 80px;
 }
 .weather-temperature .current-temperature {
   color: black;
