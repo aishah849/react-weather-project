@@ -1,0 +1,25 @@
+.upcoming-forecast {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: black;
+}
+.WeatherForecast {
+  text-align: center;
+  line-height: 15px;
+}
+.WeatherForecast-day {
+  color: black;
+  font-size: 16px;
+  padding-top: 7px;
+}
+.WeatherForecast-temperatures {
+  font-size: 13px;
+  font-weight: normal;
+}
+.WeatherForecast-max {
+  color: black;
+}
+.WeatherForecast-min {
+  color: white;
+  margin-left: 5px;
+}

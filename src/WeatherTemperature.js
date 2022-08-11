@@ -23,10 +23,10 @@ export default function WeatherTemperature(props) {
         {" "}
         <span className="current-temperature">{Math.round(props.celsius)}</span>
         <span className="units">
-          <span>℃</span> |
+          <span>ºC</span> |
           <span>
             <a href="/" onClick={showFahrenheit}>
-              ℉
+              ºF
             </a>
           </span>
         </span>
@@ -40,10 +40,10 @@ export default function WeatherTemperature(props) {
         <span className="units">
           <span>
             <a href="/" onClick={showCelsius}>
-              ℃
+              ºC
             </a>
           </span>{" "}
-          |<span>℉</span>
+          |<span>ºF</span>
         </span>
       </span>
     );
