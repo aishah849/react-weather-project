@@ -24,7 +24,15 @@ export default function App() {
           >
             Netlify
           </a>
-          . Coding by Aishah Al-Rashid.
+          . Coding by{" "}
+          <a
+            href="https://www.linkedin.com/in/aishahalrashid/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Aishah Al-Rashid
+          </a>
+          .
         </footer>
       </div>
     </div>
