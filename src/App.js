@@ -12,7 +12,7 @@ export default function App() {
           <a
             href="https://github.com/aishah849/react-weather-project"
             target="_blank"
-            rel="noreferrer"
+            rel=" noopener noreferrer"
           >
             Github
           </a>
@@ -20,7 +20,7 @@ export default function App() {
           <a
             href="https://luminous-sundae-7301a5.netlify.app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Netlify
           </a>
